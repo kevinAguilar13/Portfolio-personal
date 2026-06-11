@@ -6,6 +6,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import Techstack from "../About/Techstack";
 import Github from "../About/Github";
+import { FaWhatsapp } from "react-icons/fa";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -22,15 +23,15 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hola, ¡Bienvenido!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                SOY 
+                <strong className="main-name"> KEVIN RONAL AGUILAR CHOQUILUQUE</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -54,14 +55,14 @@ function Home() {
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
-            <h1>Find Me On</h1>
+            <h1>Encuéntrame en:</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Siéntete libre de <span className="purple">conectar </span>conmigo
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/kevinAguilar13"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -69,19 +70,19 @@ function Home() {
                   <AiFillGithub />
                 </a>
               </li>
+<li className="social-icons">
+  <a
+    href="https://wa.me/51933937023"
+    target="_blank"
+    rel="noreferrer"
+    className="icon-colour home-social-icons"
+  >
+    <FaWhatsapp />
+  </a>
+</li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/kevin-aguilar-b54a5b264/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -91,7 +92,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/kevin_aguilar_13/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -10,41 +10,41 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              PERMÍTANME <span className="purple"> PRESENTARME  </span> 
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Soy un desarrollador backend apasionado por crear soluciones eficientes y funcionales.
+              Me gusta aprender nuevas tecnologías y aplicar mis conocimientos para desarrollar 
+              aplicaciones que resuelvan problemas reales.
               <br />
               <br />
-              I’m proficient in
+              Tengo experiencia trabajando con
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Java, JavaScript, Node.js, MySQL y PostgreSQL{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — Disfruto especialmente del desarrollo de APIs REST, la gestión de bases de datos
+              y la construcción de sistemas backend escalables.
               <br />
               <br />
-              My key areas of interest include developing
+              Mis principales áreas de interés son  
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  el desarrollo web, la integración de servicios {" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              y el diseño de aplicaciones orientadas al rendimiento y la seguridad.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              Siempre que tengo la oportunidad, me gusta crear proyectos utilizando{" "}
+              <b className="purple">Node.js</b>,{" "}
+              <b className="purple">Java</b>,{" "}
+              <b className="purple">JavaScript</b>,{" "}
+              <b className="purple">MySQL</b> y{" "}
+              <b className="purple">PostgreSQL</b>, desarrollando aplicaciones y APIs que me permiten seguir fortaleciendo mis habilidades como desarrollador backend.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
