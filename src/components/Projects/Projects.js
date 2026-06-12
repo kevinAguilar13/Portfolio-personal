@@ -38,8 +38,8 @@ function Projects() {
               isBlog={false}
               title="F-Retail"
               description="F-Retail es una plataforma web especializada en la comercialización de prendas de vestir. Permite a los usuarios explorar catálogos de productos, seleccionar artículos de su interés y gestionar sus pedidos de manera rápida y segura. Su objetivo es brindar una experiencia sencilla, moderna y accesible para la adquisición de ropa en línea."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink="https://github.com/kelokevcd/FRONTEND-SISTEMAVENTA"
+              demoLink="https://frontend-sistemaventa.onrender.com/"
             />
           </Col>
 
